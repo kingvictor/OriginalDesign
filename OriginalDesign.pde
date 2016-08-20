@@ -30,12 +30,10 @@ void king()
  
   //bow
  size(100,200);
- beginShape();
  curveVertex(10,10);
  curveVertex(10,10);
  curveVertex(60,50);
  curveVertex(10,90);
- endShape();
  rect(130,80, 1,80);
  
 }
