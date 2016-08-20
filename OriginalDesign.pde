@@ -1,4 +1,4 @@
-int x = 100;
+int x = 130;
 void setup()
 {
   size(1000,1000);
@@ -30,7 +30,7 @@ void king()
  rect(100,90,30,10);
  rect(100,110,30,10);
  rect(130,80, 1,80);
- ellipse(x, 90, 20, 30);
+ ellipse(x, 90, 10, 1);
  x = x + 1;
  
 }
