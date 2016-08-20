@@ -24,7 +24,7 @@ void king()
    
    //person
  ellipse (100, 50, 30, 50)
- rect(90,100,20,50);
+ rect(90,800,20,80);
 }
 
 
