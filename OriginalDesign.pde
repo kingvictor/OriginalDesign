@@ -24,6 +24,14 @@ void king()
  ellipse (100, 50, 30, 50)
  rect(90, 80,20,50);
 
+ if ( x < 800)
+  {
+    fill(32);
+
+    // clear trail
+    rect(squareX, 165, 160, 140);
+    squareX++;
+
   //arrow
  rect(30,50,90,90);
  }
