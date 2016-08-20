@@ -1,3 +1,4 @@
+int arrowx = 115;
 void setup()
 {
   size(1000,1000);
@@ -6,6 +7,7 @@ void setup()
 }
 void draw()
 {
+	arrowx = arrow x + 1
 	cow();
 	king();
 	arrow();
@@ -33,7 +35,7 @@ void arrow()
   {
     fill(32);
     fill(255, 189, 23);
-    ellipse(x + 5, 240, 100, 50);
+    ellipse(arrowx, 240, 100, 50);
     x++;
   }
   if (x == 800)
