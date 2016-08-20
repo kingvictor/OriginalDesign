@@ -34,7 +34,7 @@ void king()
  ellipse(x, 120, 10, 1);
  x = x + 1;
  
-void crown(int x, int y)
+void crown(80, 80)
 {
   fill(255,255,0);
   noStroke();
