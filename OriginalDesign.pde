@@ -1,11 +1,5 @@
 void setup()
 {
- size(400,400);
- //int arrow = 375;
-}
-int arrow = 375;
-void draw()
-{
   size(1000,1000);
   background(255,255,255);
 }
@@ -35,17 +29,6 @@ void king()
  rect(100,110,30,10);
  rect(130,80, 1,80);
  
-}
-void mousePressed(){
-
-	arrow = arrow + 1;
-	/*
-	fill(250, 241, 182);
-	bezier(115,183,83,118,arrow,184,135,223);
-	if(arrow == 600){
-		arrow = 375;
-	}
-	*/
 }
 
 
