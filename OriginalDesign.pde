@@ -33,6 +33,7 @@ void king()
  rect(130,80, 1,80);
  ellipse(x, 120, 10, 1);
  x = x + 1;
+}
  
 void crown(80, 80)
 {
