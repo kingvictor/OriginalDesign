@@ -17,8 +17,8 @@ void cow()
 {
  noStroke();
  fill(255,0,0);
-  ellipse(700,700,30,50);
-  rect(710, 800, 200, 200, 10);
+  ellipse(700,70,30,50);
+  rect(710, 80, 200, 200, 10);
 }
 void king()
 {
