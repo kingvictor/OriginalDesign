@@ -1,5 +1,6 @@
 void setup()
 {
+index.html
   size(500,500);
 }
 void draw()
