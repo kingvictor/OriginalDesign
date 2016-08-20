@@ -7,6 +7,7 @@ void draw()
 {
 	cow();
 	king();
+	arrow();
 }
 void cow()
 {
@@ -23,8 +24,10 @@ void king()
    //person
  ellipse (100, 50, 30, 50)
  rect(90, 80,20,50);
+}
 
-  //arrow
+void arrow()
+{
   if ( x < 800)
   {
     fill(32);
@@ -36,6 +39,7 @@ void king()
   {
     x = 100;
     squareX = 8;
- }
+  }
+}
 
 
