@@ -11,7 +11,7 @@ void draw()
 void cow()
 {
  noStroke();
- fill(60);
+ fill(30);
   ellipse(700,50,30,50);
   rect(710, 60, 200, 200, 10);
 }
