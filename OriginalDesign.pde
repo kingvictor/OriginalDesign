@@ -11,14 +11,14 @@ void draw()
 void cow()
 {
  noStroke();
- fill(90);
+ fill(255,0,0);
   ellipse(700,50,30,50);
   rect(710, 60, 200, 200, 10);
 }
 void king()
 {
  noStroke();
- fill(60);
+ fill(255,0,0);
    
    //person
  ellipse (100, 50, 30, 50)
