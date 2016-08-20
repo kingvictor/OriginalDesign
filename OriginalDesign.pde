@@ -22,7 +22,7 @@ void king()
    
    //person
  ellipse (100, 50, 30, 50)
- rect(100, 20,5,10);
+ rect(100, 60,20,50);
  }
 
 
