@@ -29,7 +29,6 @@ void king()
  rect(100,110,30,10);
  
   //bow
- rect(130,80, 1,80);
  size(100,200);
  beginShape();
  curveVertex(10,10);
@@ -37,6 +36,8 @@ void king()
  curveVertex(60,50);
  curveVertex(10,90);
  endShape();
+ rect(130,80, 1,80);
+ 
 }
 
 
