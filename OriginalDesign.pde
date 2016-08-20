@@ -10,6 +10,7 @@ void draw()
 {
 	cow();
 	king();
+	crown();
 }
 
 void cow()
@@ -33,7 +34,7 @@ void king()
  ellipse(x, 120, 10, 1);
  x = x + 1;
  
- void crown(int x, int y)
+void crown(int x, int y)
 {
   fill(255,255,0);
   noStroke();
