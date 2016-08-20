@@ -1,17 +1,16 @@
-int arrowx = 115;
 void setup()
 {
   size(1000,1000);
   background(255,255,255);
-  frameRate(1);
 }
+
 void draw()
 {
-	arrowx = arrow x + 1
 	cow();
 	king();
 	arrow();
 }
+
 void cow()
 {
  noStroke();
@@ -29,20 +28,5 @@ void king()
  rect(90, 80,20,50);
 }
 
-void arrow()
-{
-  if ( x < 800)
-  {
-    fill(32);
-    fill(255, 189, 23);
-    ellipse(arrowx, 240, 100, 50);
-    x++;
-  }
-  if (x == 800)
-  {
-    x = 100;
-    squareX = 8;
-  }
-}
 
 
