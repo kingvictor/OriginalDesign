@@ -28,6 +28,7 @@ void king()
  rect(100,90,30,10);
  rect(100,110,30,10);
  rect(130,80, 1,80);
+ curveVertex(80,80);
 }
 
 
