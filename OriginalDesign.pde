@@ -25,15 +25,7 @@ void king()
  rect(90, 80,20,50);
 
   //arrow
-  if ( x < 800)
-  {
-    fill(32);
-  }
-  if (x == 800)
-  {
-    x = 100;
-    squareX = 8;
-  }
+ rect(30,50,10,10);
  }
 
 
