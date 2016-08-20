@@ -10,7 +10,7 @@ void draw()
 {
 	cow();
 	king();
-	crown();
+	crown(80,80);
 }
 
 void cow()
@@ -35,7 +35,7 @@ void king()
  x = x + 1;
 }
  
-void crown(80, 80)
+void crown(int x, int y)
 {  
   noStroke();
   fill(255,255,0);
