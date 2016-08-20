@@ -23,7 +23,6 @@ void king()
    //person
  ellipse (100, 50, 30, 50)
  rect(90, 80,20,50);
- void cat()
 
   //arrow
   if ( x < 800)
