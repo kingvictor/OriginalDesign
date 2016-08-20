@@ -10,7 +10,7 @@ void draw()
 {
 	cow();
 	king();
-	crown(200,50);
+	crown(50,50);
 }
 
 void cow()
