@@ -15,6 +15,13 @@ void cow()
   ellipse(700,50,30,50);
   rect(710, 60, 200, 200, 10);
 }
-
+void king()
+{
+ noStroke();
+ fill(60);
+   
+   //person
+ ellipse (100, 50, 30, 50)
+ rect(100, 20,5,10);
 
 
