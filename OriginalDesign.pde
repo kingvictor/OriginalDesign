@@ -27,14 +27,12 @@ void king()
  rect(90,80,20,80);
  rect(100,90,30,10);
  rect(100,110,30,10);
- 
-  //bow
- size(100,200);
+ rect(130,80, 1,80);
  curveVertex(10,10);
  curveVertex(10,10);
  curveVertex(60,50);
  curveVertex(10,90);
- rect(130,80, 1,80);
+ 
  
 }
 
