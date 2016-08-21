@@ -20,7 +20,7 @@ void cow()
   rect(710, 110, 200, 200, 10);
  fill(255,0,0);
   beginShape();
-   vertex(700, 100);
+   vertex(650, 60);
    vertex(720, 130);
    vertex(730, 130)
   endShape(CLOSE);
