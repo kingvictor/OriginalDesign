@@ -33,7 +33,15 @@ void king()
  rect(130,130, 1,80);
  ellipse(x, 170, 10, 1);
  noFill();
- bezier(20,20,10,110,280,150,280,280);
+ beginShape();
+ curveVertex(10,10);
+ curveVertex(10,10);
+ curveVertex(60,50);
+ curveVertex(10,90);
+ curveVertex(60,130);
+ curveVertex(10,170);
+ curveVertex(10,170);
+ endShape();
  x = x + 1;
 }
  
