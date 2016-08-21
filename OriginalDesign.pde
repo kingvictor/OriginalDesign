@@ -17,15 +17,12 @@ void cow()
 {
  noStroke();
  fill(0,0,0);
-  ellipse(700,100,30,50);
   rect(710, 110, 200, 200, 10);
+ fill(255,0,0);
   beginShape();
    vertex(700, 100);
    vertex(720, 130);
-   vertex(730, 110);
-   vertex(720, 40);
-   vertex(790, 100);
-   vertex(800, 90);
+   vertex(730, 130)
   endShape(CLOSE);
 
 }
