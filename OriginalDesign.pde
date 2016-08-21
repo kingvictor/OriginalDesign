@@ -32,13 +32,7 @@ void king()
  rect(100,170,30,10);
  rect(130,130, 1,80);
  ellipse(x, 170, 10, 1);
- curveVertex(10,10);
- curveVertex(10,10);
- curveVertex(60,50);
- curveVertex(10,90);
- curveVertex(60,130);
- curveVertex(10,170);
- curveVertex(10,170);
+ arc(150, 150, 100, 200, PI/4, 3*PI/2);
  x = x + 1;
 }
  
