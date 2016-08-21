@@ -32,8 +32,6 @@ void king()
  rect(100,170,30,10);
  rect(130,130, 1,80);
  ellipse(x, 170, 10, 1);
- noFill();
- beginShape();
  curveVertex(10,10);
  curveVertex(10,10);
  curveVertex(60,50);
@@ -41,7 +39,6 @@ void king()
  curveVertex(60,130);
  curveVertex(10,170);
  curveVertex(10,170);
- endShape();
  x = x + 1;
 }
  
