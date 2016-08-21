@@ -20,13 +20,13 @@ void cow()
   ellipse(700,100,30,50);
   rect(710, 110, 200, 200, 10);
   beginShape();
-   vertex(20, 20);
+   vertex(90, 90);
    vertex(40, 20);
    vertex(40, 40);
    vertex(60, 40);
    vertex(60, 60);
    vertex(20, 60);
- endShape(CLOSE);
+  endShape(CLOSE);
 
 }
 void king()
