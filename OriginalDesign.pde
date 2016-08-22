@@ -23,7 +23,7 @@ void cow()
    vertex(650, 60);
    vertex(550, 165);
    vertex(700, 180);
-   vertex(710, 130)
+   vertex(780, 130)
   endShape(CLOSE);
 
 }
