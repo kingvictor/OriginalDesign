@@ -23,8 +23,10 @@ void cow()
    vertex(650, 60);
    vertex(590, 165);
    vertex(700, 180);
-   vertex(730, 130)
+   vertex(730, 130);
   endShape(CLOSE);
+  rect(680, 300, 50, 10);
+  rect(680, 320, 50, 10);
 }
 void king()
 {
@@ -32,7 +34,7 @@ void king()
  fill(255,0,0);
    
    //person
- ellipse (100, 120, 30, 50)
+ ellipse (100, 120, 30, 50);
  rect(90,140,20,80);
  rect(100,140,30,10);
  rect(100,170,30,10);
@@ -49,7 +51,6 @@ void crown(int x, int y)
   triangle(x+10, y+35, x+25, y, x+40, y+35);
   triangle(x+50, y, x+50, y+35, x+25, y+35);
 }
-
 
 
 
