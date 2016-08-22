@@ -27,6 +27,8 @@ void cow()
   endShape(CLOSE);
   rect(680, 300, 50, 10);
   rect(680, 320, 50, 10);
+  rect(800, 300, 50, 10);
+  rect(800, 320, 50, 10);
 }
 void king()
 {
@@ -51,6 +53,4 @@ void crown(int x, int y)
   triangle(x+10, y+35, x+25, y, x+40, y+35);
   triangle(x+50, y, x+50, y+35, x+25, y+35);
 }
-
-
 
