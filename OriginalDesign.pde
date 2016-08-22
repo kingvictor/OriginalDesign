@@ -26,10 +26,10 @@ void cow()
    vertex(730, 130)
   endShape(CLOSE);
   beginShape();
-   vertex(720, 280);
-   vertex(720, 250);
+   vertex(720, 380);
+   vertex(720, 350);
    vertex(730, 330);
-   vertex(730, 200);
+   vertex(730, 300);
   endShape(CLOSE);
 }
 void king()
