@@ -26,7 +26,7 @@ void cow()
    vertex(730, 130)
   endShape(CLOSE);
   beginShape();
-   vertex(700, 200);
+   vertex(800, 200);
    vertex(700, 300);
    vertex(800, 550)
   endShape(CLOSE);
