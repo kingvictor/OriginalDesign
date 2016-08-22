@@ -25,6 +25,9 @@ void cow()
    vertex(700, 180);
    vertex(730, 130)
   endShape(CLOSE);
+  beginShape();
+   vertex(800, 500);
+   vertex(900, 500);
 
 }
 void king()
