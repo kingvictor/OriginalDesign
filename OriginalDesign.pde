@@ -42,7 +42,11 @@ void king()
  rect(100,170,30,10);
  rect(130,130, 1,80);
  ellipse(x, 170, 10, 1);
- x = x + 1;
+ x = x + 2;
+ fill(0,0,0);
+ ellipse(x, 170, 10, 1);
+ x= x + 1.5;
+ 
 }
  
 void crown(int x, int y)
