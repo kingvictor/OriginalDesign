@@ -18,7 +18,7 @@ void cow()
  noStroke();
  fill(0,0,0);
   rect(710, 110, 200, 200, 10);
- fill(255,0,0);
+ fill(0,0,0);
   beginShape();
    vertex(650, 60);
    vertex(590, 165);
