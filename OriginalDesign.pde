@@ -44,7 +44,7 @@ void king()
  ellipse(x, 170, 10, 1);
  x = x + 1;
  fill(255, 255, 255);
- ellipse(x-40, 170, 10, 1);
+ ellipse(x- 100, 170, 10, 1);
  x= x + 1;
  
 }
