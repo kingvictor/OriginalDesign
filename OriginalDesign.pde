@@ -25,10 +25,12 @@ void cow()
    vertex(700, 180);
    vertex(730, 130);
   endShape(CLOSE);
+  rotate(69);
   rect(680, 300, 50, 10);
   rect(680, 320, 50, 10);
   rect(800, 300, 50, 10);
   rect(800, 320, 50, 10);
+  rotate(0);
 }
 void king()
 {
