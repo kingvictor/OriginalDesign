@@ -8,9 +8,10 @@ void setup()
 
 void draw()
 {
-	cow();
-	king();
-	crown(70,60);
+  background(255,255,255);
+  cow();
+  king();
+  crown(70,60);
 }
 
 void cow()
@@ -25,12 +26,10 @@ void cow()
    vertex(700, 180);
    vertex(730, 130);
   endShape(CLOSE);
-  rotate(69);
   rect(680, 300, 50, 10);
   rect(680, 320, 50, 10);
   rect(800, 300, 50, 10);
   rect(800, 320, 50, 10);
-  rotate(0);
 }
 void king()
 {
@@ -43,11 +42,12 @@ void king()
  rect(100,140,30,10);
  rect(100,170,30,10);
  rect(130,130, 1,80);
- ellipse(x, 170, 10, 1);
- x = x + 1;
+ ellipse(x, 170, 80, 1);
+ x = x + 5;
  fill(255,255,255);
  ellipse(x- 100, 170, 10, 1);
- x= x + 1;
+ x= x + 5;
+ if (x>800){x=130;}
  
 }
  
@@ -59,4 +59,3 @@ void crown(int x, int y)
   triangle(x+10, y+35, x+25, y, x+40, y+35);
   triangle(x+50, y, x+50, y+35, x+25, y+35);
 }
-
